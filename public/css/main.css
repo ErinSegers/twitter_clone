@@ -1,6 +1,7 @@
 html, body {
   margin: 0px;
   padding: 0px;
+  background-color: #dedede;
 }
 
 .headline {
@@ -45,4 +46,66 @@ html, body {
 
 .button-white {
   background-color: rgba(255,255,255,.5);
+}
+
+.nav-container {
+  background-color: white;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.nav-list {
+  text-align: center;
+  margin: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 10px 20px;
+  border-right: 1px solid lightgrey;
+  margin: auto -2px;
+}
+
+.nav-list li:first-child {
+  border-left: 1px solid lightgrey;
+}
+
+.nav-list li:hover {
+  border-bottom: 5px solid green;
+}
+
+.main-text {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+}
+
+main {
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+}
+
+main section {
+  width: 312px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+section h2, h4, h5, p {
+  margin: 5px 10px 5px 10px;
+}
+
+main .section-orange {
+  background-color: orange;
+  height: 364px;
+}
+
+.float-left {
+  float: left;
 }
