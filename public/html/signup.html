@@ -1,1 +1,42 @@
-signup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitterish</title>
+  <link rel="stylesheet" href="css/signup.css" />
+</head>
+<body>
+
+<nav class="nav-bar">
+  <div class="flex">
+    <a href="#" class="twitter flex">
+      <img src="/images/twitter-512.gif" alt="Twitter" width="18" height="auto" class="icon" />
+    </a>
+  </div>
+  <ul class="nav-list">
+    <li>Language: <span class="bold">English</span> <b class="caret"></b></li>
+    <li>Have an account? <span class="bold">Log in</span> <b class="caret"></b></li>
+  </ul>
+</nav>
+<main class="signup-area">
+  <h2>Join Twitter today.</h2>
+  <form action="/signup" method="GET" class="login">
+    <div class="name">
+      <input type="name" name="fullName" placeholder="Full name" class="field" />
+    </div>
+    <div class="email">
+      <input type="email" name="email" placeholder="email" class="field yellow" />
+    </div>
+    <div class="password">
+      <input type="password" name="password" placeholder="password" class="field yellow"/>
+    </div>
+    <div>
+      <button type="submit" class="submit-button">Sign up</button>
+    </div>
+  </form>
+  <p class="disclaimer">By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use. Others will be able to find you by email or phone number when provided.</p>
+<p class="disclaimer">Advanced options</p>
+</main>
+
+</body>
+</html>

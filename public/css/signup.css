@@ -1,0 +1,130 @@
+*, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 40px;
+  margin: 0px;
+  background: #59adeb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #59adeb, #38cb9c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #59adeb, #38cb9c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #59adeb, #38cb9c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #59adeb, #38cb9c); /* Standard syntax */
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  }
+
+.flex {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}
+
+.icon {
+  width: 18px;
+  padding-top: 11px;
+}
+
+.twitter {
+  width: 50px;
+}
+
+.twitter:hover {
+  border-bottom: 3px solid #1DA1F2;
+  padding-bottom: 8px;
+}
+
+.nav-list {
+  text-align: right;
+  right: 220px;
+  color: white;
+  font-size: 11px;
+  top: 10px;
+  position: fixed;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.bold {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.caret {
+  display: inline-block;
+  position: relative;
+  margin-top: -5px;
+  vertical-align: middle;
+}
+
+.caret:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.caret:after {
+  content: '';
+  position: absolute;
+  left: 1px;
+  top: 0;
+  border-top: 3px solid #ffffff;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+
+.signup-area {
+  width: 350px;
+  margin: 120px auto;
+}
+
+.signup-area h2 {
+  font-weight: 300;
+  color: rgb(41, 47, 51);
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.field {
+  width: 350px;
+  height: 40px;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  margin: 12px auto;
+}
+
+.yellow {
+  background-color: #FAFFBD;
+}
+
+input {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+input:focus {
+  border: 1px solid lightblue;
+  outline: none;
+}
+
+.submit-button {
+  width: 360px;
+  height: 40px;
+  background-color: #1DA1F2;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  border: none;
+}
+
+.disclaimer {
+  font-size: 10px;
+  color: lightgrey;
+  margin-top: 15px;
+}
